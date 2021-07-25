@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <footer className="w-100 bg-light text-center">
+        <footer className="w-100 bg-light text-center mt-900px">
           <p>
             &copy; 2021 EZ Systems. All Rights Reserved | Terms & Conditions{" "}
           </p>

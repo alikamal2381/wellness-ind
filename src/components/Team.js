@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Table } from "react-bootstrap";
 import { SocialIcon } from 'react-social-icons';
-//import { youtube } from 'react-social-icons';
+import '../App.css';
 
 class Team extends Component {
   render() {
@@ -23,6 +23,7 @@ class Team extends Component {
       <td>+92 (300) 791-9661</td>
  */}
 
+
         <Table striped bordered hover>
   <thead>
     <tr>
@@ -39,7 +40,7 @@ class Team extends Component {
       <td><SocialIcon url="https://www.linkedin.com/in/muhammad-irfan-b02a20212" /></td>
       <td><SocialIcon url="https://youtube.com/user/Irfan9661" /></td>
       <td><SocialIcon url="https://instagram.com/mirfan_attari" /></td>
-      <td>+92 (300) 791-9661</td>
+      <td> <i class="fa fa-whatsapp whatsapp-icon"></i> +92 (300) 791-9661</td>
     </tr>
     <tr>
     <td>2</td>
@@ -48,7 +49,14 @@ class Team extends Component {
       <td><SocialIcon url="https://www.linkedin.com/in/ali-kamal-8436537/" /></td>
       <td> - </td>
       <td> - </td>
-      <td>+92 (300) 246-5967</td>
+      <td><a
+            href="https://wa.me/923002465967"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           <i class="fa fa-whatsapp whatsapp-icon"></i> +92 (300) 246-5967
+          </a>
+        </td>
     </tr>
 
   </tbody>

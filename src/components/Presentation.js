@@ -7,7 +7,7 @@ class Presentation extends Component {
     return (
       <div>
                 <div className="my-5">
-          <h1 className="text-center"> Presentation </h1>
+          <h1 className="text-center"> Presentation / E-Book </h1>
         </div>
 
 
@@ -32,25 +32,69 @@ class Presentation extends Component {
   <tbody>
     <tr>
       <td>1</td>
-      <td>GoPro Book</td>
-      <td>PDF</td>
-      <td>PDF</td>
-      <td><a href="#">View</a></td>
+      <td>Go Pro Network Marketing</td>
+      <td>Go Pro Network Marketing</td>
+      <td>BOOK</td>
+      <td><a href="/images/book/Book_GoProNetworkMarketing.pdf" target="_blank">View</a></td>
     </tr>
     <tr>
     <td>2</td>
-      <td>GoPro Book</td>
-      <td>PDF</td>
-      <td>PDF</td>
-      <td><a href="#">View</a></td>
+      <td>Book Network Marketing</td>
+      <td>Book NetworkMarketing</td>
+      <td>BOOK</td>
+      <td><a href="/images/book/Book_NetworkMarketing.pdf" target="_blank">View</a></td>
     </tr>
     <tr>
     <td>3</td>
-      <td>Cordyceps Capsules</td>
-      <td>Official Presentation of Cordyceps</td>
-      <td>Powerpoint</td>
-      <td><a href="#">View</a></td>
+      <td>Book Wellness Revolution 2020</td>
+      <td>Book Wellness Revolution 2020</td>
+      <td>BOOK</td>
+      <td><a href="/images/book/Book_WellnessRevolution_2020.pdf" target="_blank">View</a></td>
     </tr>
+
+    <tr>
+    <td>4</td>
+      <td>Cordyceps Capsules</td>
+      <td>Cordyceps Capsules</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_CordycepsCapsules.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>5</td>
+      <td>Dicho Fruit and Vegetable Cleaner</td>
+      <td>Ozone Device</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_DichoFruit_Veg_OzoneCleaner.pptx" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>6</td>
+      <td>Ariez Smart Napkin</td>
+      <td>Ariez Smart Napkin</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_SmartNapkin.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>7</td>
+      <td>Spirulina Capsules</td>
+      <td>Spirulina Capsules</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_SpirulinaCapsules.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>8</td>
+      <td>Urdu Product Brochure</td>
+      <td>Urdu Product Brochure</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_UrduProductBrochure.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>9</td>
+      <td>Tiens Compensation Plan</td>
+      <td>Tiens Compensation Plan</td>
+      <td>TIENS</td>
+      <td><a href="/images/book/Tiens_CompensationPlan.pdf" target="_blank">View</a></td>
+    </tr>
+
   </tbody>
 </Table>
 
