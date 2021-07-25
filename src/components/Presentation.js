@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Table } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 
 class Presentation extends Component {
   render() {
@@ -15,9 +14,6 @@ class Presentation extends Component {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row gy-4">
-
-{/*               <NavLink to="">View</NavLink>
-              <a href="#">View</a> */}
 
         <Table striped bordered hover>
   <thead>

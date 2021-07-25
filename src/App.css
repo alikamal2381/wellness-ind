@@ -109,4 +109,9 @@
         right: 10px;
         font-size: 22px;
     }
+
+    /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+  }
 }

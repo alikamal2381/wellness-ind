@@ -1,4 +1,4 @@
-export default [
+var ImageSlider = [
     { id: '0', imageName: 'img0.jpg', tag: 'me' },
 	{ id: '1', imageName: 'img1.jpg', tag: 'free' },
 	{ id: '2', imageName: 'img2.jpg', tag: 'new' },
@@ -13,3 +13,5 @@ export default [
 	{ id: '11', imageName: 'img11.jpg', tag: 'bronze' },
 	{ id: '12', imageName: 'img12.jpg', tag: 'bronze' }
 ];
+
+export default ImageSlider;
