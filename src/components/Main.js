@@ -6,6 +6,7 @@ import About from "./About";
 //import Contact from "./Contact";
 import Presentation from "./Presentation";
 import Video from "./Video";
+import Slideshow from "./Slideshow";
 import Team from "./Team";
 
 const Main = () => (
@@ -17,6 +18,7 @@ const Main = () => (
 
       <Route path="/presentation" component={Presentation} />
       <Route path="/video" component={Video} />
+      <Route path="/slideshow" component={Slideshow} />
       <Route path="/team" component={Team} />
 
 {/*       <Route path="/services" component={Services} />

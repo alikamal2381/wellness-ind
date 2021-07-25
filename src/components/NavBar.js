@@ -73,6 +73,16 @@ class NavBar extends Component {
                   <li className="nav-item">
                     <NavLink
                       className="nav-link"
+                      to="/slideshow"
+                      activeClassName="menu_active"
+                    >
+                      Slide Show
+                    </NavLink>
+                  </li>
+
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
                       to="/team"
                       activeClassName="menu_active"
                     >
