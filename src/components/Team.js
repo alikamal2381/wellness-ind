@@ -21,6 +21,15 @@ class Team extends Component {
       <td>https://youtube.com/user/Irfan9661</td>
       <td>https://instagram.com/mirfan_attari</td>
       <td>+92 (300) 791-9661</td>
+
+<a
+            href="https://wa.me/923002465967"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           <i class="fa fa-whatsapp whatsapp-icon"></i> +92 (300) 246-5967
+          </a>
+
  */}
 
 
@@ -49,13 +58,7 @@ class Team extends Component {
       <td><SocialIcon url="https://www.linkedin.com/in/ali-kamal-8436537/" /></td>
       <td> - </td>
       <td> - </td>
-      <td><a
-            href="https://wa.me/923002465967"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           <i class="fa fa-whatsapp whatsapp-icon"></i> +92 (300) 246-5967
-          </a>
+      <td><i class="fa fa-whatsapp whatsapp-icon"></i> +92 (300) 246-5967
         </td>
     </tr>
 

@@ -14,6 +14,8 @@ class Home extends Component {
           visit="/services"
           btname="Get Started"
         />
+
+        {/* <img src={process.env.PUBLIC_URL + '/grow-business.svg'} /> */}
       </div>
     );
   }
