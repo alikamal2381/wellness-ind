@@ -6,7 +6,7 @@ class Footer extends Component {
       <div>
         <footer className="w-100 bg-light text-center">
           <p>
-            &copy 2021 EZ Systems. All Rights Reserved | Terms & Conditions{" "}
+            &copy; 2021 EZ Systems. All Rights Reserved | Terms & Conditions{" "}
           </p>
         </footer>
       </div>

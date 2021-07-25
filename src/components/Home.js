@@ -8,6 +8,8 @@ class Home extends Component {
       <div>
         <Common
           name="Grow your business with"
+          subtitle="Network Marketing"
+          desc="We are the team of talented entrepreneurship and making problem solving"
           imgsrc={Web}
           visit="/services"
           btname="Get Started"

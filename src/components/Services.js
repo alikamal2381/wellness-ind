@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-//import Sdata from "./Sdata";
+import Sdata from "./Sdata";
 import Card from "./Card";
-import Web from "../images/s1.jpg";
+//import Web from "../images/s1.jpg";
 
 class Services extends Component {
   render() {
@@ -15,35 +15,16 @@ class Services extends Component {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row gy-4">
-                <Card
+              
+                {/* <Card
                   imgsrc={Web}
                   title="Card# 1"
                   description="Card Description...."
                   btncaption="Button 1"
-                />
+                /> */}
 
-                <Card
-                  imgsrc={Web}
-                  title="Card# 1"
-                  description="Card Description...."
-                  btncaption="Button 1"
-                />
-
-                <Card
-                  imgsrc={Web}
-                  title="Card# 1"
-                  description="Card Description...."
-                  btncaption="Button 1"
-                />
-
-                <Card
-                  imgsrc={Web}
-                  title="Card# 1"
-                  description="Card Description...."
-                  btncaption="Button 1"
-                />
-
-                {/*                 {Sdata.map((val, ind) => {
+               
+                {Sdata.map((val, ind) => {
                   return (
                     <Card
                       key={ind}
@@ -53,7 +34,8 @@ class Services extends Component {
                       btncaption=" Go LIVE "
                     />
                   );
-                })} */}
+                })} 
+                
               </div>
             </div>
           </div>

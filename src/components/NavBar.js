@@ -9,7 +9,7 @@ class NavBar extends Component {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light bg">
               <Link className="navbar-brand" to="/">
-                Wellness Revolution (Wellness Industries)
+                Wellness Industries
               </Link>
               <button
                 className="navbar-toggler"
@@ -38,15 +38,6 @@ class NavBar extends Component {
                       Home <span className="sr-only">(current)</span>
                     </NavLink>
                   </li>
-                  <li className="nav-item">
-                    <NavLink
-                      className="nav-link"
-                      to="/services"
-                      activeClassName="menu_active"
-                    >
-                      Services
-                    </NavLink>
-                  </li>
 
                   <li className="nav-item">
                     <NavLink
@@ -61,12 +52,53 @@ class NavBar extends Component {
                   <li className="nav-item">
                     <NavLink
                       className="nav-link"
+                      to="/presentation"
+                      activeClassName="menu_active"
+                    >
+                      Presentation
+                    </NavLink>
+                  </li>
+
+
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      to="/video"
+                      activeClassName="menu_active"
+                    >
+                      Video
+                    </NavLink>
+                  </li>
+
+                  <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      to="/team"
+                      activeClassName="menu_active"
+                    >
+                      Team
+                    </NavLink>
+                  </li>
+
+                  {/* <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
+                      to="/services"
+                      activeClassName="menu_active"
+                    >
+                      Services
+                    </NavLink>
+                  </li> */}
+
+                  {/* <li className="nav-item">
+                    <NavLink
+                      className="nav-link"
                       to="/contact"
                       activeClassName="menu_active"
                     >
                       Contact
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </nav>
