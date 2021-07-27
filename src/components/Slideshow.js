@@ -53,10 +53,10 @@ function Slideshow() {
                     <div className="App">
                     <div className="tags">
                         <TagButton name="all" tagActive={tag === 'all' ? true : false} handleSetTag={setTag} /> /
-                        <TagButton name="new" tagActive={tag === 'new' ? true : false} handleSetTag={setTag} /> /
-                        <TagButton name="free" tagActive={tag === 'free' ? true : false} handleSetTag={setTag} /> /
-                        <TagButton name="pro" tagActive={tag === 'pro' ? true : false} handleSetTag={setTag} /> /
-                        <TagButton name="bronze" tagActive={tag === 'bronze' ? true : false} handleSetTag={setTag} />
+                        <TagButton name="tiens" tagActive={tag === 'tiens' ? true : false} handleSetTag={setTag} /> /
+                        <TagButton name="product" tagActive={tag === 'product' ? true : false} handleSetTag={setTag} /> /
+                        <TagButton name="syllabus" tagActive={tag === 'syllabus' ? true : false} handleSetTag={setTag} /> /
+                        <TagButton name="other" tagActive={tag === 'other' ? true : false} handleSetTag={setTag} />
                     </div>
                     <SRLWrapper options={options}>
                     <div className="container">
