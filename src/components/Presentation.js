@@ -91,6 +91,62 @@ class Presentation extends Component {
       <td><a href="/images/book/Tiens_CompensationPlan.pdf" target="_blank">View</a></td>
     </tr>
 
+    <tr>
+    <td>10</td>
+      <td>Prod_TiensFoodSupplementsCatalogue.pdf</td>
+      <td>Prod_TiensFoodSupplementsCatalogue.pdf</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_TiensFoodSupplementsCatalogue.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>11</td>
+      <td>Tiens Wellness Equipments Catalogue</td>
+      <td>Tiens Wellness Equipments Catalogue</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_TiensWellnessEquipmentsCatalogue.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>12</td>
+      <td>Eco Friendly House hold Products</td>
+      <td>Eco Friendly House hold Products</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_EcoFriendlyHouseholdProducts.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>13</td>
+      <td>Personal Care Products</td>
+      <td>Personal Care Products</td>
+      <td>PRODUCT</td>
+      <td><a href="/images/book/Prod_PersonalCareProducts.pdf" target="_blank">View</a></td>
+    </tr>
+    <tr>
+    <td>14</td>
+      <td>Prospecting</td>
+      <td>Prospecting</td>
+      <td>TIENS</td>
+      <td><a href="/images/book/Recruit_Prospecting.pptx" target="_blank">View</a></td>
+    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </tbody>
 </Table>
 

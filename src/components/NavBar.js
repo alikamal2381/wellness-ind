@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 class NavBar extends Component {
   render() {
     return (
+      
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
@@ -22,7 +23,7 @@ class NavBar extends Component {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-
+              {/* navbar-toggler-icon */}
               <div
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
@@ -115,6 +116,8 @@ class NavBar extends Component {
           </div>
         </div>
       </div>
+      
+
     );
   }
 }
