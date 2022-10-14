@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React from 'react';
+import Navbar from './Navbar';
 
-class Header extends Component {
-  render() {
+function Header() {
     return (
-      <div className="aboutme-text">
-        <h1 style={{ textAlign: "center", fontSize: "2em" }}>Header</h1>
-      </div>
-    );
-  }
+        <div id="main">
+            <Navbar />
+            
+        </div>
+    )
 }
 
 export default Header;

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+//import YouTubePlayer from "react-player/youtube";
+//import { NavLink } from "react-router-dom";
 
 class Footer extends Component {
   render() {
@@ -9,13 +10,13 @@ class Footer extends Component {
           <p>
             &copy; 2021 EZ Systems. All Rights Reserved | Terms & Conditions{" "}
 
-            <br />
+         {/*    <br />
             <NavLink exact to="/">Home</NavLink> | 
             <NavLink to="/about">About</NavLink> | 
             <NavLink to="/presentation">Presentation</NavLink> | 
             <NavLink to="/video">Video</NavLink> | 
             <NavLink to="/slideshow">Slide Show</NavLink> | 
-            <NavLink to="/team">Team</NavLink>
+            <NavLink to="/team">Team</NavLink> */}
           </p>
         </footer>
       </div>

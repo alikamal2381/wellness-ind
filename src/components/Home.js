@@ -1,24 +1,13 @@
-import React, { Component } from "react";
-import Web from "../images/grow-business.svg";
-import Common from "./Common";
+import React from 'react';
 
-class Home extends Component {
-  render() {
+function Home() {
     return (
-      <div>
-        <Common
-          name="Grow your business with"
-          subtitle="Network Marketing"
-          desc="We are the team of talented entrepreneurship and making problem solving"
-          imgsrc={Web}
-          visit="/services"
-          btname="Get Started"
-        />
-
-        {/* <img src={process.env.PUBLIC_URL + '/grow-business.svg'} /> */}
-      </div>
-    );
-  }
+            <div className='name'>
+                <h1><span>Launch your App</span> With confidence And Creativity</h1>
+                <p className='details'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href='#' className='cv-btn'>Download</a>
+            </div>
+    )
 }
 
 export default Home;

@@ -1,21 +1,35 @@
-import React, { Component } from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-//import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import "./App.css";
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import React from "react";
+//Components
+import Header from './components/Header';
+import Feature from './components/Feature';
+import About from './components/About';
+import Presentation from './components/Presentation';
+import Contact from './components/Contact';
 
-class App extends Component {
-  render() {
+import Main from './components/Main';
+
+//images
+import aboutImage from './images/about.png';
+import aboutImage1 from './images/download.png';
+
+const App = () => {
     return (
-      <div className="App">
-        <NavBar />
+        <>
+<Header />
         <Main />
-        <Footer />
-      </div>
-    );
-  }
-}
+
+        {/* <Header />
+        <Feature />
+        <About image={aboutImage} title='Comes with All you Need for Daily Life' button='Get the App' />
+        
+        <Presentation />
+
+        <About image={aboutImage1} title='fdkfjdfjkjfdj Need for Daily Life' button='Press Me' /> 
+
+        <Contact /> */}
+
+        </>
+    )   
+}    
 
 export default App;
